@@ -32,6 +32,24 @@ export default function AboutSection() {
 
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row gap-16 items-center">
+                    <motion.div
+                        initial={{ opacity: 0, x: -50 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8 }}
+                        className="w-full md:max-w-sm"
+                    >
+                        <div className="rounded-3xl overflow-hidden border-4 border-white shadow-2xl bg-black">
+                            <video
+                                src="/Untitled (5).mp4"
+                                className="w-full h-full object-cover aspect-[9/16]"
+                                controls
+                                preload="metadata"
+                                playsInline
+                            />
+                        </div>
+                    </motion.div>
+
                     {/* Text Content */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
