@@ -2,7 +2,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowDown, Instagram, Play, Send } from "lucide-react"
+import { ArrowDown, Play, Send } from "lucide-react"
 import Link from "next/link"
 
 export default function HeroSection() {

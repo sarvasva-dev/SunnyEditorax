@@ -12,6 +12,7 @@ export default function PortfolioSection() {
         { type: 'local', src: "/68c109db26c7e97eb1bfc69f91ddc7e2_720w.mp4", title: "Recent Edit 1" },
         { type: 'local', src: "/6d1726323d4e7991d85a17c3bd358735.mp4", title: "Recent Edit 2" },
         { type: 'local', src: "/d521074bc8f29e4274227441add90d7b_720w.mp4", title: "Recent Edit 3" },
+        { type: 'local', src: "/Untitled (5).mp4", title: "Recent Edit 4" },
         { type: 'youtube', id: "bDziX4cL-ro", title: "Featured Viral Short" },
         { type: 'youtube', id: "4LbDsJZhTYc", title: "Viral Short 1" },
         { type: 'youtube', id: "_JpUNyaboY4", title: "Viral Short 2" },
