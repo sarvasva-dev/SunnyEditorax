@@ -8,6 +8,7 @@ export default function PortfolioSection() {
     const allVideos = [
         { type: 'youtube', id: "1tT-RP9Z1Yk", title: "Featured Work" },
         { type: 'local', src: "/podcast-edit.mp4", title: "Podcast Edit" },
+        { type: 'local', src: "/Podcast%20video%20edit.mp4", title: "Podcast Video Edit" },
         { type: 'local', src: "/lv_0_20260128161334.mp4", title: "Sunny Focus Edit" },
         { type: 'local', src: "/68c109db26c7e97eb1bfc69f91ddc7e2_720w.mp4", title: "Recent Edit 1" },
         { type: 'local', src: "/6d1726323d4e7991d85a17c3bd358735.mp4", title: "Recent Edit 2" },
