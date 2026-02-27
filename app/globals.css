@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   --color-primary: #FBCFE8;
   --color-primary-foreground: #831843;
   --color-card: 255 255 255;
@@ -13,24 +13,21 @@
 
   --animate-float: float 6s ease-in-out infinite;
 
-  @keyframes float {
-
-    0%,
-    100% {
-      transform: translateY(0);
-    }
-
-    50% {
-      transform: translateY(-20px);
-    }
-  }
-}
-
-:root {
   --background: #FAFAF9;
   /* Stone-50 */
   --foreground: #1E1B4B;
   /* Indigo-950 */
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 body {
@@ -44,6 +41,7 @@ body {
 @layer utilities {
   .glass-card {
     background-color: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.4);
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -55,8 +53,8 @@ body {
   }
 
   .text-gradient {
-    background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     background-image: linear-gradient(to right, #ec4899, #a855f7);
   }
