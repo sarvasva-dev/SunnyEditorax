@@ -4,7 +4,6 @@
 import { useState, useEffect } from "react"
 import { motion, useScroll } from "framer-motion"
 import Link from "next/link"
-import Image from "next/image"
 import { Menu, X } from "lucide-react"
 
 export default function Navigation() {
@@ -63,7 +62,7 @@ export default function Navigation() {
                             href="#contact"
                             className="px-5 py-2 rounded-full bg-indigo-950 text-white text-sm font-medium hover:bg-indigo-900 transition-colors shadow-md shadow-indigo-200/50"
                         >
-                            Let's Talk
+                            Let&apos;s Talk
                         </Link>
                     </div>
 
