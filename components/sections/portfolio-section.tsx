@@ -4,6 +4,29 @@
 import { motion } from "framer-motion"
 
 export default function PortfolioSection() {
+    // ---------------------------------------------------------------------------
+    // HOW TO REPLACE A YOUTUBE VIDEO
+    // ---------------------------------------------------------------------------
+    // Each YouTube entry below has a `type: 'youtube'` field and an `id` field.
+    // The `id` is the part after "v=" in a YouTube URL.
+    //
+    // Example:
+    //   YouTube URL  → https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    //   Video ID     → dQw4w9WgXcQ
+    //
+    // To swap a video, simply replace the `id` value with your new video ID,
+    // and update the `title` to match:
+    //
+    //   Before: { type: 'youtube', id: "1tT-RP9Z1Yk", title: "Featured Work" }
+    //   After:  { type: 'youtube', id: "YOUR_NEW_ID", title: "Your New Title" }
+    //
+    // To add a brand-new YouTube video, append a new entry to the array:
+    //   { type: 'youtube', id: "YOUR_NEW_ID", title: "Your Title Here" }
+    //
+    // For local MP4 videos stored in the /public folder, use:
+    //   { type: 'local', src: "/your-video-file.mp4", title: "Your Title Here" }
+    // ---------------------------------------------------------------------------
+
     // Combine all videos into a single list for a unified grid
     const allVideos = [
         { type: 'youtube', id: "1tT-RP9Z1Yk", title: "Featured Work" },
