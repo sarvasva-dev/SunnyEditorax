@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 export default function PortfolioSection() {
     // Combine all videos into a single list for a unified grid
     const allVideos = [
+        { type: 'local', src: "/Untitled%20(5).mp4", title: "Podcast Edit" },
         { type: 'local', src: "/car%20edit%201.mp4", title: "Recent Car Edit" },
         { type: 'local', src: "/car%20edit%202.mp4", title: "Recent Car Edit" },
         { type: 'youtube', id: "1tT-RP9Z1Yk", title: "Featured Work" },
@@ -20,8 +21,6 @@ export default function PortfolioSection() {
         { type: 'local', src: "/68c109db26c7e97eb1bfc69f91ddc7e2_720w.mp4", title: "Recent Edit 1" },
         { type: 'local', src: "/6d1726323d4e7991d85a17c3bd358735.mp4", title: "Recent Edit 2" },
         { type: 'local', src: "/d521074bc8f29e4274227441add90d7b_720w.mp4", title: "Recent Edit 3" },
-        { type: 'local', src: "/New%20edit%20video%20.mp4", title: "New Edit Video" },
-        { type: 'local', src: "/Untitled%20(5).mp4", title: "Untitled Edit" },
     ]
 
     return (
