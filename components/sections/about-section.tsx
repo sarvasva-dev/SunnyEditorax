@@ -2,7 +2,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { CheckCircle2, Star, TrendingUp, Video, Instagram } from "lucide-react"
+import { TrendingUp, Video, Instagram } from "lucide-react"
 
 export default function AboutSection() {
     const services = [
@@ -45,10 +45,10 @@ export default function AboutSection() {
                             I help creators <span className="italic text-pink-400">go viral.</span>
                         </h3>
                         <p className="text-lg text-indigo-900/70 mb-6 leading-relaxed font-sans">
-                            Hi, I'm <span className="font-semibold text-indigo-950">Sunny</span>. With over <span className="font-semibold text-pink-600">500+ videos</span> edited and <span className="font-semibold text-pink-600">25+ viral hits</span> (1M+ views), I know exactly what makes short-form content perform.
+                            Hi, I&apos;m <span className="font-semibold text-indigo-950">Sunny</span>. With over <span className="font-semibold text-pink-600">500+ videos</span> edited and <span className="font-semibold text-pink-600">25+ viral hits</span> (1M+ views), I know exactly what makes short-form content perform.
                         </p>
                         <p className="text-lg text-indigo-900/70 mb-8 leading-relaxed font-sans">
-                            My editing style focuses on rhythm, storytelling, and retention. Whether it's a 15-second Reel or a 60-second Short, I ensure every frame counts.
+                            My editing style focuses on rhythm, storytelling, and retention. Whether it&apos;s a 15-second Reel or a 60-second Short, I ensure every frame counts.
                         </p>
 
                         <div className="grid grid-cols-2 gap-4">

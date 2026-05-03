@@ -41,9 +41,11 @@ export default function Navigation() {
                 >
                     {/* Logo */}
                     <Link href="/" className="block">
-                        <img
+                        <Image
                             src="/logo.png"
                             alt="Sunny Editorax Logo"
+                            width={150}
+                            height={64}
                             className="h-16 w-auto object-contain"
                         />
                     </Link>
@@ -63,7 +65,7 @@ export default function Navigation() {
                             href="#contact"
                             className="px-5 py-2 rounded-full bg-indigo-950 text-white text-sm font-medium hover:bg-indigo-900 transition-colors shadow-md shadow-indigo-200/50"
                         >
-                            Let's Talk
+                            Let&apos;s Talk
                         </Link>
                     </div>
 

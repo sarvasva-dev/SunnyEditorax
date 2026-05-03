@@ -2,8 +2,7 @@
 "use client"
 
 import { useState } from "react"
-import { motion } from "framer-motion"
-import { MessageCircle, Phone, Send } from "lucide-react"
+import { MessageCircle, Send } from "lucide-react"
 
 export default function ContactSection() {
     const [formData, setFormData] = useState({
@@ -31,7 +30,7 @@ export default function ContactSection() {
             <div className="container mx-auto px-6">
                 <div className="max-w-4xl mx-auto backdrop-blur-sm bg-white/40 rounded-3xl p-8 md:p-12 border border-white/60 shadow-xl">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl font-serif font-bold text-indigo-950 mb-4">Let's Create Magic</h2>
+                        <h2 className="text-4xl font-serif font-bold text-indigo-950 mb-4">Let&apos;s Create Magic</h2>
                         <p className="text-indigo-900/60 font-sans">
                             Ready to take your content to the next level? Drop me a message or connect directly on WhatsApp.
                         </p>
