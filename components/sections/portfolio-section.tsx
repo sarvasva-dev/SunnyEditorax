@@ -17,9 +17,8 @@ export default function PortfolioSection() {
         { type: 'local', src: "/podcast-edit.mp4", title: "Podcast Edit" },
         { type: 'local', src: "/Podcast%20video%20edit.mp4", title: "Podcast Video Edit" },
         { type: 'local', src: "/lv_0_20260128161334.mp4", title: "Sunny Focus Edit" },
-        { type: 'local', src: "/68c109db26c7e97eb1bfc69f91ddc7e2_720w.mp4", title: "Recent Edit 1" },
-        { type: 'local', src: "/6d1726323d4e7991d85a17c3bd358735.mp4", title: "Recent Edit 2" },
-        { type: 'local', src: "/d521074bc8f29e4274227441add90d7b_720w.mp4", title: "Recent Edit 3" },
+        { type: 'local', src: "/ssstik.io_@quincy.visuals_1777786729672.mp4", title: "Quincy Visuals Edit 1" },
+        { type: 'local', src: "/ssstik.io_@quincy.visuals_1777786781884.mp4", title: "Quincy Visuals Edit 2", aspect: "landscape" },
     ]
 
     return (
@@ -54,7 +53,7 @@ export default function PortfolioSection() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1, duration: 0.6 }}
-                            className="relative aspect-[9/16] rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group border-4 border-white bg-black"
+                            className={`relative ${video.aspect === 'landscape' ? 'aspect-video sm:col-span-2 lg:col-span-1' : 'aspect-[9/16]'} rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group border-4 border-white bg-black`}
                         >
                             {video.title && (
                                 <div className="absolute top-3 left-3 z-10 rounded-full bg-white/85 px-3 py-1 text-xs font-semibold text-indigo-950 shadow-sm">
